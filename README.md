@@ -1,4 +1,9 @@
-nosecedit
-=========
+====== Nosecedit Plugin for DokuWiki ======
 
-nosecedit
+All documentation for the nosecedit Plugin is available online at:
+
+  * http://dokuwiki.org/plugin:nosecedit
+
+(c) 2013 by lisps
+
+See COPYING for license info.

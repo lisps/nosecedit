@@ -1,0 +1,7 @@
+base    nosecedit
+author  lisps
+email   
+date    2013-10-29
+name    NoSectionEdit
+desc    Disable SectionEdit-Buttons
+url     http://dokuwiki.org/plugin:nosecedit
