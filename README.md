@@ -6,4 +6,4 @@ All documentation for the nosecedit Plugin is available online at:
 
 (c) 2013 by lisps
 
-See COPYING for license info.
+See LICENSE for license info.
