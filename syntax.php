@@ -67,7 +67,7 @@ class syntax_plugin_nosecedit extends DokuWiki_Syntax_Plugin
     /*
      * Handle the matches
      */
-    function handle($match, $state, $pos, &$handler)
+    function handle($match, $state, $pos, Doku_Handler $handler)
     	{
       	global $ID;
         return (array($ID=>TRUE));        
@@ -76,7 +76,7 @@ class syntax_plugin_nosecedit extends DokuWiki_Syntax_Plugin
     /*
      * Create output
      */
-    function render($mode, &$renderer, $opt)
+    function render($mode, Doku_Renderer $renderer, $opt)
     	{
 	    global $ID;
 
