@@ -26,7 +26,7 @@ class action_plugin_nosecedit extends DokuWiki_Action_Plugin
     /**
      * Register its handlers with the DokuWiki's event controller
      */
-    function register(&$controller)
+    function register(Doku_Event_Handler $controller)
     	{
         $controller->register_hook('HTML_SECEDIT_BUTTON', 'BEFORE', $this, 'html_secedit_button');
     	}
